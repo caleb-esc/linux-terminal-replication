@@ -1,0 +1,9 @@
+{
+  "name": "Static Terminal Site",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/nginx:1": {}
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "npx serve -s ."
+}
